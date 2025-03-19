@@ -8,7 +8,7 @@ import android.widget.EditText;
 import android.widget.LinearLayout;
 import androidx.appcompat.app.AppCompatActivity;
 
-public class Exercicio4Activity extends AppCompatActivity {
+public class Exe4Act extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {

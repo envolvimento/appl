@@ -8,7 +8,7 @@ import androidx.core.graphics.Insets;
 import androidx.core.view.ViewCompat;
 import androidx.core.view.WindowInsetsCompat;
 
-public class Exercicio6Activity extends AppCompatActivity {
+public class Exe6Act extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {

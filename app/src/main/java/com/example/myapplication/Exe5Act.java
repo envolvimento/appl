@@ -7,7 +7,7 @@ import android.widget.CheckBox;
 import android.widget.Toast;
 import androidx.appcompat.app.AppCompatActivity;
 
-public class Exercicio5Activity extends AppCompatActivity {
+public class Exe5Act extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {

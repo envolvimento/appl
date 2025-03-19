@@ -12,16 +12,16 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-        Button btnExercicio1 = findViewById(R.id.btnExercicio1);
-        Button btnExercicio2 = findViewById(R.id.btnExercicio2);
-        Button btnExercicio3 = findViewById(R.id.btnExercicio3);
-        Button btnExercicio4 = findViewById(R.id.btnExercicio4);
-        Button btnExercicio5 = findViewById(R.id.btnExercicio5);
+        Button btnExe1 = findViewById(R.id.btnExe1);
+        Button btnExe2 = findViewById(R.id.btnExe2);
+        Button btnExe3 = findViewById(R.id.btnExe3);
+        Button btnExe4 = findViewById(R.id.btnExeo4);
+        Button btnExe5 = findViewById(R.id.btnExe5);
 
-        btnExercicio1.setOnClickListener(v -> startActivity(new Intent(this, Exercicio1Activity.class)));
-        btnExercicio2.setOnClickListener(v -> startActivity(new Intent(this, Exercicio2Activity.class)));
-        btnExercicio3.setOnClickListener(v -> startActivity(new Intent(this, Exercicio3Activity.class)));
-        btnExercicio4.setOnClickListener(v -> startActivity(new Intent(this, Exercicio4Activity.class)));
-        btnExercicio5.setOnClickListener(v -> startActivity(new Intent(this, Exercicio5Activity.class)));
+        btnExe1.setOnClickListener(v -> startActivity(new Intent(this, Exe1Act.class)));
+        btnExe2.setOnClickListener(v -> startActivity(new Intent(this, Exe2Act.class)));
+        btnExe3.setOnClickListener(v -> startActivity(new Intent(this, Exe3Act.class)));
+        btnExe4.setOnClickListener(v -> startActivity(new Intent(this, Exe4Act.class)));
+        btnExe5.setOnClickListener(v -> startActivity(new Intent(this, Exe5Act.class)));
     }
 }
